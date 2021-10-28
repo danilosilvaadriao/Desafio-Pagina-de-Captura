@@ -1,0 +1,173 @@
+/* Margin e padding da página */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Cor de fundo e fonte da página */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+}
+
+/* Tamanho e enquadramento da página */
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Configurações do header */
+header{
+	background-color: #48C5CE;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+/* Tamanho do título */
+.title{
+	font-size: 25px;
+
+}
+
+/* Confugurações da seção */
+section{
+	padding: 20px;
+	background-image: url('../images/people.jpg');
+	background-size: cover;
+	overflow: hidden;
+}
+
+/* Confugurações da class em section */
+.formContainer{
+	max-width: 230px;
+	background-color: #FFFFFFBB;
+	padding: 20px;
+	float: right;
+	border-radius: 5px;
+}
+
+/* Tamanho da fonte */
+h2{
+	font-size: 16px;
+}
+
+/* Configurações do H2 e P */
+.mb{
+	margin-bottom: 15px;
+}
+
+/* Configurações do botão e opções de selecionar */
+input, select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+/* Configurações do botão INSCREVA-SE */
+input[type="submit"]{
+	color: white;
+	background-color: #48C5CE;
+	font-weight: bold;
+}
+
+/* Configurações das opções de selecionar */
+select{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+
+	background-image: url('../images/arrow.jpg');
+	background-repeat: no-repeat;
+
+	background-position: calc(100% - 10px) center;
+}
+
+/* Foto do palestrante */
+.picture{
+	width: 160px;
+	border-radius: 5px;
+}
+
+/* Configurações do Rodapé | Apresentação do autor */
+footer{
+	background-color: #202121;
+	text-align: center;
+	padding: 40px;
+	color: white;
+}
+
+}
+
+/* Configurações da descrição */
+.description{
+	display: inline-block;
+	text-align: left;
+	
+	max-width: 40%;
+	margin-left: 40px;
+
+}
+
+/* Alinhamento e margem do texto */
+.description p, .description h3{
+	margin-bottom: 20px;
+
+	text-align: justify;
+}
+
+/* Tamanho da fonte */
+.description h3{
+	font-size: 24px;
+}
+
+/* Rodapé */
+address{
+	padding-top: 2px;
+	color: white;
+	text-align: center;
+
+	background-color: #688585;
+
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+/* Abaixo estão configurações para mobile */
+
+/* Largura mínima */
+@media screen and (min-width: 300px) {  }
+
+/* Largura máxima */
+@media screen and (max-width: 500px) {
+	
+	.formContainer{
+		float: none;
+		margin: auto;
+	}
+
+	.picture{
+		float: none;
+		margin: auto;
+	}
+
+	.description{
+		float: none;
+		margin: auto;
+		text-align: justify;
+	}
+
+}
+
+/* Animação do botão */
+.botao:hover{
+    background-color: red;
+    color: white;
+
+    cursor: pointer;
+    transition: 1s ease all;
+ }
