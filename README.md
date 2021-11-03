@@ -1,5 +1,5 @@
 # Desafio Pagina de Captura :computer: :email:
-Desafio de criação de uma página de captura proposto no curso de programação web full stack do Programador BR, <br> 
+Desafio de criação de uma página de captura proposto no curso de programação web full stack do Programador BR, <br>
 usando o Mailchimp como ferramenta de captura.
 
 Utilizamos CSS e HTML e a IDE de desenvolvimento foi o Visual Studio Code. <br><br>
