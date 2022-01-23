@@ -20,4 +20,4 @@ Utilizamos CSS e HTML e a IDE de desenvolvimento foi o Visual Studio Code. <br><
   
   ---
   
-Feito por Danilo Silva Adrião 🖱 [Veja meu LinkedIn] (https://www.linkedin.com/in/danilosilvaadriao)
+Feito por Danilo Silva Adrião 🖱 [Veja meu LinkedIn](https://www.linkedin.com/in/danilosilvaadriao)
