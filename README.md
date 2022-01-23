@@ -15,7 +15,7 @@ Utilizamos CSS e HTML e a IDE de desenvolvimento foi o Visual Studio Code. <br><
   - [HTML5](https://html.spec.whatwg.org/multipage/)
   - [CSS3](https://www.w3.org/TR/css3-roadmap/)
   
-  # IDE de Desenvolvimento
+  ## IDE de Desenvolvimento
   - [Visual Studio Code](https://code.visualstudio.com/)
   
   ---
